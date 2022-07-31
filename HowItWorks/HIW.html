@@ -7,36 +7,36 @@
     <title>How it Works</title>
 </head>
 <style>
-    div>#h{
+    .h{
         text-align: center;
         justify-content: space-around;
         margin-left: 200px;
         margin-right: 200px;
         color: #039695;
     }
-    #Box{
+    .a-Box{
         width: 75%;
         border: 2px dashed black;
         margin: auto;
     }
-    #secBox>#con{
+    .con{
         height: 600px;
         width: 400px;
         border: 3px solid red;
         margin-right: 30px;
     }
-    #secBox{
+    .secBox{
         display: flex;
         justify-content: space-around;
     }
-    #img{
+    .figure{
         height: 350px;
         width: 600px;
         border: 3px solid red;
         margin-top: 45px;
         margin-left: 30px;
     }
-    #rating{
+    .rating{
         height: 100px;
         width: 600px;
         margin-top: -150px;
@@ -46,83 +46,336 @@
     }
     /* ------------------------------------------------------------------------------------------------*/
     /* yt css */
-    #Yt{
+    .Yt{
         border: 4px solid yellow;
     }
-    #Yt>#yttext{
+    .Yt>.yttext{
 
         margin-top: 90px;
         text-align: center;
     }
-   #yttext>p{
+   .yttext>p{
     margin-left: 300px;
     margin-right: 270px;
    }
-   #ytbox{
-     display: flex;
-     justify-content: center;
+   .ytbox{
+    
+     display: grid;
+     height: 300px;
+     grid-template-columns: repeat(2,1fr);
+     justify-content: space-around;
+     column-gap: 30px;
+     padding-left: 30px;
+     padding-right: 30px;
+
 }
-   #ytbox>div{
-    height: 300px;
-    width: 500px;
-    border: 4px dashed aqua;
-    /* padding-left: 80px;
-    padding-right: 80px; */
-    margin-left: 50px;
-    margin-right: 50px;
+   .ytbox>div{
+    
+    border: 3px dashed aqua;
+   
+   }
+   /* -------------------------------------------------------------------------------------------- */
+   /* fund css */
+
+   .fund>div{
+     height: 400px;
+     border: 3px dashed brown;
+   }
+   .contact{
+    display: flex;
+    justify-content: center;
+    
+   }
+   
+   .contact>div button{
+      
+        height: 40px;
+       width: 260px;
+        
+        margin-top: 45px;
+        font-size: 13px;
+        cursor: pointer;
+        outline: none;
+        
+   }
+   .buttonOne{
+    height: 100px;
+    color: white;
+   border-radius: 4px;
+    background-color: #01bfbd;
+    border: none;
+     margin-right: 10px;
+   }
+   .buttonTwo{
+    height: 100px;
+    color: #01bfbd;
+   border: 3px solid #01bfbd;
+   border-radius: 4px;
+    background-color: white;
+    margin-left: 10px;
+   
+   }
+   .buttonTwo:hover{
+    color: white;
+    background-color: #01bfbd;
+   }
+   .buttonOne:hover{
+     background-color:  #2f8f8a;
    }
 
+   /* ____________________________________________________________________________________
+   contact css */
+
+
+   .contactTwo{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    
+   }
+   .contactTwo>p{
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .contactTwo>button{
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+   }
+   .chatOne{
+    background-color: #354f84 ;
+    color: white;
+    margin-left: 80px;
+   
+   }
+   .chattwo{
+    background-color: #13cb6a;
+    color: white;
+    margin-left: 7px;
+   }
+   .chattwo:hover{
+    background-color: #1b894e;
+
+   }
+   .chatOne:hover{
+    background-color: #2b3e64;
+   }
+   .forborder{
+  border: 4px solid rgb(255, 192, 247);
+   }
+   /* --------------------------------------------------------------------------------------------- */
+  /* services css */
+  .a-container{
+    display: grid;
+    width: 70%;
+    margin-left: 170px;
+    margin-top: -15px;
+    /* margin: auto; */
+    grid-template-columns: repeat(3,1fr);
+    /* border: 2px solid red; */
+    row-gap: 20px;
+    column-gap: 20px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    
+  }
+  .a-service-box{
+   /* border: 2px solid greenyellow; */
+    margin: 5px 5px 5px 5px;
+    
+    height: 100px;
+  }
+  .a-para{
+    font-size: 13px;
+    margin-top: -37px;
+    
+  }
+ .a-das{
+    color: #01bfbd;
+    font-size: 35px;
+    margin-top: -32px;
+    /* margin-bottom: 10px; */
+ }
+ 
 </style>
+
+
+
+
 <body>
     <div>
         <!-- this is for header -->
     </div>
-<div id="Box">
+<div class="a-Box">
     <!-- First full Body started-->
     <div>
-     <h1 id="h">Raising Funds was never this easy. Start a fundraiser in 5 minutes!</h1>
+     <h1 class="h">Raising Funds was never this easy. Start a fundraiser in 5 minutes!</h1>
     </div>
-     <div id="secBox">  <!--this div for image and contact -->
+     <div class="secBox">  <!--this div for image and contact -->
 
 
-       <div  id="img">
+       <div  class="figure">
          <!-- for image  -->
        </div>
 
 
-       <div id="con">
+       <div class="con">
         <!-- for contact  -->
        </div>
     </div>
 
-    <div id="rating">
+    <div class="rating">
         <!-- image bottom rating -->
 
        </div>
    
 <!-- ________________________________________________________________________________________________________ -->
 
-<div id="Yt">
-    <div id="yttext">
+<div class="Yt">
+    <div class="yttext">
         <h1>What is Crowdfunding?</h1>
         <p>In its simplest form, Crowdfunding is a practice of giving monetary funds 
             to overcome specific social,cultural, or economic hurdles individuals face in their daily lives.</p>
     </div>
   
-  <div id="ytbox">
+  <div class="ytbox">
     <div></div>
     <div></div>
   </div>
 </div>
+   <!-- ________________________________________________________________________________________________________ -->
+      <!-- fundraiser steps -->
+      
+     <div class="fund">
 
+        
+    <div></div>
+
+
+
+     </div>
+
+
+     <!-- ________________________________________________________________________________________________________ -->
+
+     <!-- contact part  -->
+     <div class="forborder">
+      <div class="contact">
+     <div>
+             
+                <button class="buttonOne">START A FUNDRAISER FOR FREE</button>
+              
+              
+                 <button class="buttonTwo">TALK TO US</button>
+               
+    </div>
 </div>
 
 
+    <div class="contactTwo">
+        <p>Have any questions for us? Chat with our team on Facebook or WhatsApp now.</p>
+        <button class="chatOne"> CHAT WITH US</button>
+        <button class="chattwo">CHAT WITH US</button>
+    </div>
+</div>
+
+    <!-- ________________________________________________________________________________________________________ -->
+    
+    <!-- Services section -->
+
+    <h1 style="text-align: center;">We provide everything you need</h1>
+    <div class="a-container">
+    
+        <div class="a-service-box">
+            <p>Payout</p>
+            <p class="a-das">-</p>
+            <p class="a-para">This is your money, you can withdraw it at any point during the course of your fundraiser</p>
+    
+        </div>
+        <div class="a-service-box">
+            
+            <p>International payment support</p>
+            <p class="a-das">-</p>
+            <p class="a-para">We accept donations in multiple currencies from anywhere in the world
+            </p>
+
+        </div>
+        <div class="a-service-box">
+            <p>Multiple people - Same Fundraiser</p>
+            <p class="a-das">-</p>
+            <p class="a-para">Multiple people manage and fundraise for your cause</p>
+       
+
+        </div>
+        <div class="a-service-box">
+            <p>Personalized Web App</p>
+            <p class="a-das">-</p>
+            <p class="a-para">Get instant updates on your fundraiser's progress via instant alerts, email and track everything realtime on Ketto's web app</p>
+       
+        </div>
+        <div class="a-service-box">
+            <p>Dedicated Fundraiser expert</p>
+            <p class="a-das">-</p>
+            <p class="a-para">A dedicated fundraiser expert guides you through your fundraising</p>
+       
+
+        </div>
+        <div class="a-service-box">
+            <p>
+                Keep the raised amount</p>
+            <p class="a-das">-</p>
+            <p class="a-para">You will receive all the raised amount after the transactional, processing fee.
+            </p>
+       
+
+        </div>
+        <div class="a-service-box">
+            <p>24/7 support
+            </p>
+            <p class="a-das">-</p>
+            <p class="a-para">We offer you 24*7 assistance via call, WhatsApp, Email, SMS and our Instant Chatting Interface
+            </p>
+       
+
+        </div>
+        <div class="a-service-box">
+            <p>Advertising support</p>
+            <p class="a-das">-</p>
+            <p class="a-para">We provide marketing and promotional support for your fundraiser
+            </p>
+       
+
+        </div>
+        <div class="a-service-box">
+            <p>Fundraising Marketing tool</p>
+            <p class="a-das">-</p>
+            <p class="a-para">A highly intelligent marketing tool, which provides all insights on your fundraiser
+            </p>
+       
+            
+        </div>
+    
+    
+        </div>
+
+
+    </div>
 
 
 
 
 
+
+
+
+
+
+
+
+</div>
     
 </body>
 </html>
