@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="myform">
+        <form onsubmit="signup(event)">
+          <h1>Welcome to the Ketto</h1>
+          <label for="">Name</label>
+          <input type="text" id="name" placeholder="Enter your Name" />
+          <label for="">Email-ID</label>
+          <input type="text" id="mail" placeholder="Enter your Mail ID" />
+          <label for="">Password</label>
+          <input type="password" id="password" placeholder="Enter Password" />
+          <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.html"> Sign In </a></p>
+      </div>
+      <div class="image">
+        <img
+          src="https://cdn-images-1.medium.com/max/378/1*O707ev4Wk7zDHKnHwXkd7A@2x.png"
+        />
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./signup.js"></script>
