@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+        <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
  <!-- Boxicons CDN Link -->
  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
 </head>
@@ -185,6 +188,10 @@
     height: 500px;
     /* width: 1330px; */
  }
+ .a-service-box .fa{
+    color: #01bfbd;
+ }
+ 
  /* ____________________________________________________________________________________________________________________ */
  /* contact Side  */
 
@@ -192,6 +199,7 @@
     width: 35%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-radius: 7px;
+    margin-top: 20px;
  }
  .center>img{
         margin-left: 185px;
@@ -678,6 +686,19 @@ select option{
     margin-left: 200px;
     padding-left: 20px;
 }
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+ .fa-payment{
+    color: #01bfbd;
+    margin-bottom: -40px;
+    margin-left: 40px;
+    
+ } 
+.yurNo{
+    margin-left: 70px;
+}
+
 </style>
 
 
@@ -743,8 +764,8 @@ select option{
                 </div>
     
                 <div class="txt_field">
-                    <input type="password" required>
-                    <label>Your Mobile Number</label>
+                    <input name="phone" type="text" id="phone" class="phone`8"/> 
+                      <label  class="yurNo">Your Mobile Number</label>
                 </div>
 
                <select class="select-ttag">
@@ -903,15 +924,21 @@ select option{
     <!-- Services section -->
 
     <h1 style="text-align: center;">We provide everything you need</h1>
+   <div class="fa-payment">
+    <i class="fa fa-money" aria-hidden="true"></i>
+</div>
     <div class="a-container">
     
         <div class="a-service-box">
             
+           
             <p>Payout</p>
             <p class="a-das">-</p>
             <p class="a-para">This is your money, you can withdraw it at any point during the course of your fundraiser</p>
     
         </div>
+        
+    
         <div class="a-service-box">
             
             <p>International payment support</p>
@@ -1188,6 +1215,12 @@ setInterval(function() {
 window.onload = function() {
 responsiveSlider();  
 }
+var input = document.querySelector("#phone");
+            window.intlTelInput(input, {
+                separateDialCode: true,
+                excludeCountries: ["in", "il"],
+                preferredCountries: ["ru", "jp", "pk", "no"]
+            });
 </script>
 
 
