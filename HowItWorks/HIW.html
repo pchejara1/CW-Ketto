@@ -15,6 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
         <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+<link rel="stylesheet" href="owl.carousel.min.css">
 
  <!-- Boxicons CDN Link -->
  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
@@ -63,7 +64,7 @@
    }
    
    .contact>div button{
-      
+
         height: 40px;
        width: 260px;
         
@@ -563,11 +564,7 @@ details>summary::-webkit-details-marker{
 .font-style {
     margin-left: 335px;
 }
-.a-rows{
-    /* width: 1000px; */
-    /* height: 700px; */
-    /* margin: auto; */
-}
+
 .left{
    
     display: flex;
@@ -698,8 +695,73 @@ select option{
 .yurNo{
     margin-left: 70px;
 }
-
-</style>
+.aa-container{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+/* ________________________________________________________________________________________________________________ */
+.slider-card{
+    /* margin-right:200px  */
+    height: 300px;
+    width: 480px;
+    border-radius: 10px;
+    background-color: white;
+}
+.slider-card >div{
+   
+    display: flex;
+   
+}
+.slider-card>div img{
+    height: 65px;
+    width: 65px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.textdec{
+    margin-left: 10px;
+    padding-top: 14px;
+    line-height: 11px;
+}
+.textdec>p{
+    font-size: 12px;
+   margin-top: -10px;
+   font-weight: 100;
+}
+.textdec>h4 span{
+    color: #01bfbd;
+}
+.textdec>h4{
+    font-size: 15px;
+}
+.hindipara{
+    margin-top: -17px;
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 8px;
+    padding-right: 12px;
+}
+.slider-card h5{
+    margin-top: 5px;
+}
+.slider-card a{
+    font-size: 13px;
+    color: #01bfbd;
+    font-weight: bold;
+    font-style: italic;
+}
+.slider-card>a p{
+    margin-top: 60px;
+    margin-left: 370px;
+}
+.owl{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-left: 20px;
+column-gap:  20px ;    
+}
+ </style>
 
 
 
@@ -1023,15 +1085,76 @@ select option{
 <!-- main div -->
 </div>
 </div>
-<!-- ____________________________________________________________________________________ -->
+<!-- ____________________________________________________________________________________ --> 
 <div class="a-raiseFund">
-  
+    <div class="aa-container">
+        <h1>Most Promising Platform To Raise Funds</h1>
+        <p>Millions of people succesfully raised funds on Ketto for their cause. Hear what some of our successful campaigners have to say.</p>
+    </div>
+    <!-- <div class="a-slider"> -->
+        <div class="owl">
+
+            
+            <div class="slider-card">
+                <div >
+                <div>
+                    <img src="https://kettocdn.gumlet.io/media/campaign/37000/37273/image/59d3533ee1b56.jpeg?w=768&dpr=1.0" alt="">
+                </div>
+                <div class="textdec">
+                    <h3>Nitya</h3>
+                    <p>Beneficiary's mother</p>
+                    <h4>Raised <span>Rs.25,85,870</span> for a liver transplantation</h4>
+                </div>
+            </div>
+           <h5>Testimonial: </h5>
+              <p class="hindipara"> “मेरे कार्थी का ऑपरेशन सिर्फ लोगों के फंड्स की वजह से हुआ. कितने सारे लोगों ने मेरे बच्चें को बिना किसी अपेक्षा के पैसे दिए. मेरे बच्चें की जान बचाने का बहुत बहुत शुक्रिया. केट्टो का इसमें बहुत योगदान रहा. मैं इस मदद के लिया सदा कृतज्ञ रहूंगी.” </p>
+            <a href="https://www.ketto.org/fundraiser/Karthi"><p> Visit campaign</p></a>
+            </div>
+
+            <div class="slider-card">
+                <div >
+                <div>
+                    <img src="https://kettocdn.gumlet.io/media/campaign/37000/37031/image/59cca573abc22.png?w=768&dpr=1.0" alt="">
+                </div>
+                <div class="textdec">
+                    <h3>Constable Deepak</h3>
+                    <p>Campaigner</p>
+                    <h4>Raised <span>Rs.9,57,401</span>  for Constable medical treatment</h4>
+                </div>
+            </div>
+           <h5>Testimonial: </h5>
+              <p class="hindipara">  My liver transplant was stuck because my family didn't have funds to afford it. It's only because I knocked on Ketto's door that I'm healthy today. A big thank you to each and every one who gave me money. I wouldn't be alive without you.  </p>
+            <a href="https://www.ketto.org/fundraiser/Karthi"><p> Visit campaign</p></a>
+            </div>
+
+            <div class="slider-card">
+                <div >
+                <div>
+                    <img src="https://kettocdn.gumlet.io/media/individual/232000/232396/image/5a4526f379f37.jpg?w=240&dpr=1.0" alt="">
+                </div>
+                <div class="textdec">
+                    <h3>Manish Vyas</h3>
+                    <p>Campaigner</p>
+                    <h4>Raised <span>Rs.5,66,598</span>  for child education</h4>
+                </div>
+            </div>
+           <h5>Testimonial: </h5>
+              <p class="hindipara"> The support from Ketto was excellent. We received guidance throughout the process from setting up the fundraiser, documentation, social media support and getting more coverage for our cause. Glad to have partnered with Ketto for this!  </p>
+            <a href="https://www.ketto.org/fundraiser/Karthi"><p> Visit campaign</p></a>
+            </div>
+
+
+        </div>
+
+    <!-- </div> -->
   
     <!-- 182 -->
 
 
-
 </div>
+
+   
+
 <!-- ____________________________________________________________________________________ -->
 <!-- faq  -->
 
@@ -1223,6 +1346,7 @@ var input = document.querySelector("#phone");
             });
 </script>
 
+<script src="owl.carousel.min.js"> </script>
 
     
 </body>
