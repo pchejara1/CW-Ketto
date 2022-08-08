@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="payment_2.css">
+</head>
+<body>
+    <header>
+        <div class="navbar_main">
+            <img id="navbar_logo" src="https://ketto.gumlet.io/assets/images/logo-light-bg.svg?w=70&dpr=1.0" alt="keto_logo">
+            <div id="navbar_part1">
+                <p>About SIP</p>
+                <p>How It Works</p>
+                <p>Our Impact</p>
+                <p>Who We Are</p>
+                <p>FAQs</p>
+            </div>
+            <div id="navbar_part2">
+                <!-- <button id="navbar_btn1">
+                    <img id="whatsapp_l" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/150px-WhatsApp.svg.png" alt="">
+                    Chat
+                </button> -->
+                <button id="navbar_btn2">Donate Monthly</button>
+                <!-- <p>Sign in</p> -->
+            </div>
+            
+        </div>
+    </header>
+    <img class="bg-img" src="https://ketto.gumlet.io/assets/images/sip/sip-bg.png?w=1366&dpr=1.0" alt="bg">
+    <div class="payment_box">
+        <p class="pay_heading">Social Impact Plan</p><br>
+        <p class="pay_join">Join our community of monthly donors providing urgent medical care to children</p>
+        <br>
+        <p class="pay_join"> <b>Enter Your Payment Details</b></p>
+        <div class="payment_subPlan">
+            <button class="pay_sub">Net Banking</button>
+            <button class="pay_sub">UPI</button>
+            <!-- <button class="pay_sub">₹500/mo</button> -->
+        </div>
+        <!-- <input type="number" name="" id="pay_other" placeholder="Other Amount"> -->
+        <form>
+            
+            <input class="pay_customer" type="text" placeholder="Enter Bank Name"> <br>
+            <input class="pay_customer" type="number" placeholder="Enter Account Number"><br>
+            <input class="pay_customer" type="text" placeholder="Enter IFSC Code"><br>
+            <button class="pay_pledge" onclick="payment_done()">Pledge ₹500 / Month</button>
+            <!-- <p class="pay_doners">1,49,585 donors are giving monthly</p> -->
+        </form>
+        <p class="pay_terms"><b>Note:</b> This Account will be linked to a monthly subscription and future payments will be charged automatically. On clicking the 'Pledge' button you will be redirected to the NPCI platform.
+        </p>
+    
+    </div>
+
+</body>
+</html>
+<script>
+    document.querySelector(".pay_pledge").addEventListener("click",payment_done);
+    function payment_done(){
+        alert("Payment Done Successfully !");
+        window.location.href='https://www.ketto.org/';
+    }
+</script>
