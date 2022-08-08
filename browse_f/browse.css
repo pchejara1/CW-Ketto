@@ -638,3 +638,8 @@ margin-right: 5px;
         #navbar_part2 >p{
             color: rgb(104, 103, 103);
         }
+
+        #paymentBtn{
+            text-decoration: none;
+            color: #039695;
+        }
