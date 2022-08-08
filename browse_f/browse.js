@@ -1,5 +1,7 @@
 var fundData = [  
     {
+        location: "Bengaluru",
+        type:    "Tax Benefit",
         category: "All Categories",
         img : "https://kettocdn.gumlet.io/media/campaign/180000/180773/image/wid6089ceb85c0bd.jpeg?dpr=1.0&q=70&w=300",
         heading : "Feeding From Far-Ration Distribution Amid Lockdown",
@@ -11,6 +13,8 @@ var fundData = [
         
     },
     {
+        location: "New Delhi",
+        type: "Trending" ,
         category: "All Categories",
         img : "https://kettocdn.gumlet.io/media/campaign/212000/212655/image/wid1f1a33100b0ce11487774ca00c4341f7d0364e69.jpg?w=300&dpr=1.5",
         heading : "My little boy’s cancer has relapsed twice but I’m...",
@@ -22,6 +26,8 @@ var fundData = [
         
     },
     {
+        location: "Bengaluru",
+        type: "Trending" ,
         category: "All Categories",
         img : "https://kettocdn.gumlet.io/media/campaign/218000/218792/image/wid60326899153a5.jpeg?w=300&dpr=1.5",
         heading : "Help father and his 20-year old son, Father-Kidney...",
@@ -33,6 +39,8 @@ var fundData = [
         
     },
     {
+        location: "New Delhi",
+        type:    "Tax Benefit",
         category: "Education",
         img : "https://kettocdn.gumlet.io/media/campaign/277000/277698/image/wid5fa2de60a1557.jpeg?w=300&dpr=1.5",
         heading : "Schooling Special needs Children with Custom...",
@@ -44,6 +52,8 @@ var fundData = [
         
     },
     {
+        location: "New Delhi",
+        type: "Trending" ,
         category: "Education",
         img : "https://kettocdn.gumlet.io/media/campaign/445000/445343/image/wid60f6ea7fc6789.jpeg?w=300&dpr=1.5",
         heading : "BACK TO SCHOOL",
@@ -55,6 +65,8 @@ var fundData = [
         
     },
     {
+        location: "Bengaluru",
+        type:    "Tax Benefit",
         category: "Education",
         img : "https://kettocdn.gumlet.io/media/campaign/621000/621515/image/wid6272c26d4eba8.png?w=300&dpr=1.5",
         heading : "HELP WANGCHOK FROM LADAKH STUDY AT GENEVA",
@@ -66,6 +78,9 @@ var fundData = [
         
     },
     {
+
+        location: "New Delhi",
+        type:    "Tax Benefit",
         category: "Medical",
         img : "https://kettocdn.gumlet.io/media/campaign/212000/212655/image/wid1f1a33100b0ce11487774ca00c4341f7d0364e69.jpg?w=300&dpr=1.5",
         heading : "My little boy's cancer has relapsed twice but I'm...",
@@ -77,6 +92,9 @@ var fundData = [
         
     },
     {
+        location: "Bengaluru",
+       
+        type: "Trending" ,
         category:"Medical",
         img : "https://kettocdn.gumlet.io/media/campaign/218000/218792/image/wid60326899153a5.jpeg?w=300&dpr=1.5",
         heading : "Help father and his 20-year old son, Father-Kidney",
@@ -88,6 +106,9 @@ var fundData = [
         
     },
     {
+       
+        location: "New Delhi",
+        type:    "Tax Benefit",
         category:"Medical",
         img : "https://kettocdn.gumlet.io/media/campaign/167000/167947/image/wid57beaf6d360986134ecdbd89657dd6a2b901a548.jpg?w=300&dpr=1.5",
         heading : "Wife Fears She Will Lose The Father Of Their 2-Year-Old",
@@ -99,6 +120,8 @@ var fundData = [
         
     },
     {
+        location: "New Delhi",
+        type: "Trending" ,
         category:"Women & Girls",
         img : "https://kettocdn.gumlet.io/media/campaign/601000/601847/image/wid9b6ceae3e80f0c0e81a59ddf6224163eef3444b1.jpg?w=300&dpr=1.5",
         heading : "Scarred but alive - support acid attack survivors by...",
@@ -109,7 +132,9 @@ var fundData = [
         support :"148",
         
     },
-    {
+    {   
+        location: "Bengaluru",
+        type: "Trending" ,
         category:"Women & Girls",
         img : "https://kettocdn.gumlet.io/media/campaign/117000/117114/image/wid5eba67d0e4594.jpeg?w=300&dpr=1.5",
         heading : "Homeless animals need your help, please donate as much...",
@@ -121,6 +146,8 @@ var fundData = [
         
     },
     {
+        location: "New Delhi",
+        type:    "Tax Benefit",
         category:"Women & Girls",
         img : "https://kettocdn.gumlet.io/media/campaign/209000/209801/image/wid5ef0926136ba7.png?w=300&dpr=1.5",
         heading : "Help underprivileged women with sanitary pads",
@@ -132,6 +159,9 @@ var fundData = [
         
     },
     {
+        location: "Bengaluru",
+        type:    "Tax Benefit",
+        type: "Trending" ,
         category:"Animals",
         img : "https://kettocdn.gumlet.io/media/campaign/522000/522460/image/wid6167f51f7a909.jpeg?w=300&dpr=1.5",
         heading : "URGENT HELP needed for our shelter and our strays",
@@ -143,6 +173,8 @@ var fundData = [
         
     },
     {
+        location: "New Delhi",
+        type:    "Tax Benefit",
         category: "Animals",
         img : "https://kettocdn.gumlet.io/media/campaign/489000/489376/image/wid62da8c9571859.jpg?w=300&dpr=1.5",
         heading : "Grandpa Bob's Ray of Hope",
@@ -154,6 +186,8 @@ var fundData = [
         
     },
     {
+        location: "New Delhi",
+        type: "Trending" ,
         category:"Animals",
         img : "https://kettocdn.gumlet.io/media/campaign/389000/389487/image/wid609281c402715.jpeg?w=300&dpr=1.5",
         heading : "Help Rescue & Feed The Strays In The Pandemic",
@@ -165,6 +199,8 @@ var fundData = [
         
     },
     {
+        location: "Bengaluru",
+        type:    "Tax Benefit",
         category:"Creative",
         img : "https://kettocdn.gumlet.io/media/campaign/159000/159901/image/wid14d0dd18e576af46ff5a2373936e8d42cb9f42df.png?w=300&dpr=1.5",
         heading : "Help Us to Plant 1 Trillion Tree Worldwide",
@@ -176,6 +212,8 @@ var fundData = [
         
     },
     {
+        location: "Bengaluru",
+        type: "Trending" ,
         category:"Creative",
         img : "https://kettocdn.gumlet.io/media/campaign/83000/83346/image/wid5c6fb27cedf3e.jpeg?w=300&dpr=1.5",
         heading : "Darya Firasti II",
@@ -186,7 +224,9 @@ var fundData = [
         support :"117",
         
     },
-    {
+    {  
+        location: "Bengaluru",
+        type:    "Tax Benefit",
         category:"Creative",
         img : "https://kettocdn.gumlet.io/media/campaign/607000/607589/image/wid624a99cecbc0a.jpeg?w=300&dpr=1.5",
         heading : "Help IISER Pune students make it to iGEM 2022!",
@@ -198,6 +238,8 @@ var fundData = [
         
     },
     {
+        location: "New Delhi",
+        type: "Trending" ,
         category:"Creative",
         img : "https://kettocdn.gumlet.io/media/campaign/656000/656006/image/wid62ea5d2df1f1f.jpg?w=300&dpr=1.5",
         heading : "Help IISER Pune students make it to iGEM 2022!",
@@ -284,63 +326,71 @@ function displayData(fundData){
     });
 }
 
-// var fundArr = JSON.parse(localStorage.getItem("browseList")) || [];
-   
-//  window.addEventListener("load",function(){
-//     displayData(fundArr);
-//  });
-
- // filter 
- function handleRoleFilter(){
-    //  var selected = document.getElementById("filterRole").value;
-    //  console.log(selected); 
-     
-//      var Category = document.getElementById("filterRole").value;
 
 
-//    if(Category === "All Categories" || Category === ""){
-//     return 1;
-//    } else{
-//     var filterEd = fundData.filter(function(elem){
-     
-//         return elem.category== Category;
-
-//     })
+function handleRoleFilter(){
 var Category = document.getElementById("filterRole").value;
 
 var filterEd = fundData.filter(function(elem){
 if(Category === "All Categories" || Category === ""){
  return 1;
 } else{
-
-  
-     return elem.category== Category;
+ return elem.category== Category;
       }
 
  })
-
-
-    // fundfilter.push(Category[0]);
-    // localStorage.setItem("Window",JSON.stringify(fundfilter));
     console.log(filterEd);
     displayData(filterEd);
     
    }
 
+   function typeFilter(){
+    var TT = document.getElementById("fund").value;
+   
+var filterType = fundData.filter(function(elem){
+     if(TT === "All Types" || TT === ""){
+        return 1;
+     }else{
+        return elem.type == TT;
+        
+     }
+     })
+     console.log(filterType);
+    displayData(filterType);
+}
+
+
+function locationSearch(){
+    var Sl = document.getElementById("location").value;
+ 
+    var filterLocation = fundData.filter(function(elem){
+        if(Sl === "All Location" || Sl === "" ){
+            return 1;
+        }else{
+            return elem.location == Sl;
+            
+        }
+    })
+    console.log(filterLocation);
+    displayData(filterLocation);
+}
 
 
  
-// var filterList = fundArr.filter(function(elem){
-//     if(selected === "All Categories "  || selected ===""){
-//         return 1;
+function showEducation(){
+    var EDu=document.getElementById("Educaion").value;
+    var filterEDu = fundData.filter(function(elem){
+        if(EDu === "Education"){
+            return elem.category==filterEDu;
+        }
+    })
+    displayData(filterEDu);
+    console.log(filterEDu);
+    
+}
 
-//     }else{
-//         return elem.role == selected;
-//     }
-// });
 
-// displayData(filterList);
 
-// console.log(filterList);
- //}
+ 
+
 

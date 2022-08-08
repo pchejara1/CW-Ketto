@@ -1,25 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>browse fund </title>
-    <script src="https://kit.fontawesome.com/df328465c2.js" crossorigin="anonymous"></script>
-     <!-- css style -->
-    <!-- css style -->
-    <!-- css style -->
-    <!-- css style -->
-<style>
-   *{
+*{
     font-family: 'Source Sans Pro', sans-serif;
+    /* padding: 0;
+    margin: 0; */
 }
 
-#navbar{
+/* #navbar{
     border: 2px solid deeppink;
      width: auto;
      height: 100px;
-}
+} */
 
 
     #data{
@@ -195,8 +184,14 @@ margin-right: 5px;
     font-weight: 100;
     color: gray;
     border: 0px;
+    border-radius: 10px;
+    padding-left: 40px;
 
   }
+  /* #query:focus{
+    border: transparent;
+
+  } */
 
 
 
@@ -285,6 +280,7 @@ margin-right: 5px;
    #childrenPic button{
     background-color: #015c7e;
     color: white;
+    margin-left: 50px;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -328,9 +324,9 @@ margin-right: 5px;
     }
 
    #childrenPic img{
-        /* width: 100%; */
-        height: 100%;
-        padding: 0px;
+        width: 35%;
+        height: 90%;
+        padding: 5px;
    }
 
    /* chit,chat */
@@ -413,7 +409,7 @@ margin-right: 5px;
    justify-content: space-around;
  }
 
- #bfooter{
+ #footer{
     border: 2px solid peru;
     height: 400px;
     width: auto;
@@ -513,173 +509,132 @@ margin-right: 5px;
 }
 
 
+/* footer ***************/
+
+ .footerbody{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .footer_box{
+            background-color: #244949;
+            padding-left: 8%;
+            padding-right: 8%;
+            height: 600px;
+        }
+        .ft_box{
+            padding-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+        }
+        .img_box{
+            width: 300px;
+        }
+        img{
+            width: 80px;
+        }
+        .b_logo{
+            margin: 3px;
+            width: 40px;
+        }
+        li{
+            color: white;
+            font-size: 15px;
+            padding: 10px;
+        }
+        .bottom_head{
+            margin-bottom: 20px;
+            font-weight: bolder;
+            font-size: 23px;
+        }
+        .b_query{
+            font-weight: bolder;
+            font-size: 18px;
+            color: white;
+            margin-bottom: -7px;
+        }
+        .million{
+            color: white;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        .followers{
+            font-size: 15px;
+            color: grey;
+            margin-top: -20px;
+            margin-bottom: 70px;
+        }
+        .visa{
+            width: 450px;
+            display: block;
+            margin-left: 600px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        .copyright{
+            color: aliceblue;
+            text-align: center;
+        } 
 
 
+        /* navbar  */
+
+        /* body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        } */
+        .navbar_main{
+            background-color: white;
+            border: 0;
+            padding-left: 5%;
+            padding-right: 5%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
 
 
-
-
-
-
-
-</style>
-
-</head>
-<body>
-      
-    <nav>
-        <!-- nav code for browse page  -->
-           
-
-    </nav>
-
-    <div id="navbar">
-     <div>
-       <!-- for all navbar all anchor -->
-        navbar
-     </div>
-    </div>
-
-    <div id="backgroundImage">
-    <!-- backgroundImage -->
-    <img src="bro.png" alt="child img " > 
-       
-        <h2>Saving A Child Every Month</h2>
-         <p>Join monthly donors with Social Impact Plan and start saving<br>
-          needy children every month</p>
-         <button> Start Giving Monthly </button>
-     
-    </div>
-    
-    <!-- // search -->
-    <div id="search">
-    
-        <form id="form"> 
-           
-      <input type="search" id="query"  name="q" placeholder="Search for fundraisers">
-          <i class="fa-solid fa-magnifying-glass"></i>
-       </form>
-
-    </div>
-      <div id="bcategories">
-        <p>CATEGORIES</p>
-        <hr>
-        <a  onclick="s" href="">All Categories</a>
-        <div id="Education">  <a onclick="showFundraisers()" href="#" value="Education" >Education</a>      </div>      
-        <div id="Medical"> <a  onclick="showFundraisers()" href="#" value="Medical">Medical</a> </div>             
-        <div id="womensgirls"> <a onclick="showFundraisers()" href="#"  value="Women & Girls">Womens & Girls</a> </div> 
-        <div id="animals"> <a onclick="showFundraisers()" href="#" value="Animals">Animals</a>   </div>        
-        <div id="creative"> <a onclick="showFundraisers()" href="#" value="Creative">Creative</a>  </div>        
-        <div id="foodhunger"> <a onclick="showFundraisers()" href="#">Food & Hunger</a> </div>   
-        <div id="environment"> <a onclick="showFundraisers()" href="#">Environment</a></div>      
-        <div id="children"> <a onclick="showFundraisers()" href="#">Children</a></div>         
-        <div id="memorial"> <a onclick="showFundraisers()" href="#">Memorial</a>   </div>       
-        <div id="communitydevelopment"> <a onclick="showFundraisers()" href="#">Community Development</a></div> 
-        <div id="others"> <a onclick="showFundraisers()" href="#">Others</a></div>   
-        <hr>
-        <button >Start a Fundraiser </button>
-        
-      </div>
-       
-      <div id="respCat">
-         <p>Showing fundraisers for</p>
-         <select  id="filterRole" onchange="handleRoleFilter()">
-             <option value="Women & Girls">Women & Girls</option>
-             <option value="All Categories">All Categories</option>
-             <option value="Education">Education</option>
-             <option value="Medical">Medical</option>
-             <option value="Animals">Animals</option>
-             <option value="Creative">Creative</option>
-         </select>
- 
-         <p>under</p>
-         <select  id="fund">
-             <option value="All Types">All Types</option>
-             <option value="Tax Benefit">Tax Benefit</option>
-             <option value="Trending">Trending</option>
-             <option value="Urgently Funds Required">Urgently Funds Required</option>
-             <option value="SucessFully Funded">SucessFully Funded</option>
-         </select>
- 
-         <p>from</p>
-         <select  id="location">
-             <option value="">All Location</option>
-             <option value="">Mumbia</option>
-             <option value="">Bengaluru</option>
-             <option value="">New Delhi</option>
-             <option value="">Hyderabad</option>
-             <option value="">Chennai</option>
-            
-         </select>
-         
-      </div>
-
-
-
-      <div id="data"> </div>
-       
-        <!-- childrenPic -->
-     <div id="talkToUs">
-        <div id="childrenPic">
-      <img src="https://ketto.gumlet.io/assets/images/Sip-banner-people/girls-sip.png?w=160&dpr=1.5" alt="">
-        <div>
-            <p>What's better <b>Saving One Child?</b></p>
-            <h1>Saving 12 More!</h1>
-            <button>Start Giving Mothly</button>
-        </div>
-        </div>
-        <div id="talk">
-             <h2>Confused about how to start a Fundraiser?</h2>
-             <button>Talk to us</button>
-            </div>
-        </div>
-    
-        <button id="load">LOAD MORE -></button>
-
-        <div id="media">
-            <p>Have a question? Check out our FAQs page or chat with us on Facebook or WhatsApp.</p>
-         <div class="btn">
-             
-            <button><a href="https://www.facebook.com/messages/t/ketto.org" target="_blank"> </a> <i class="fa-brands fa-square-facebook fa-1x"></i>CHAT WITH US</button>
-            <button> <a href="https://api.whatsapp.com/send?phone=919930088522" target="_blank"></a> <i class="fa-brands fa-whatsapp fa-1x"></i>CHAT WITH US</button>
-         </div>
-    
-        </div>
-
-     <!-- footerpart -->
-
-       <div id="bfooter">
-
-        footer
-       </div>
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-</body>
-</html>
-
-
-    <script  src="browse.js">  
-    
-    
-    </script>
-
+        }
+        #navbar_logo{
+            width: 70px;
+            margin-top: -18px;
+        }
+        #navbar_part1{
+            width: 40%;
+            color: rgb(104, 103, 103);
+            margin-left: -100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #navbar_part2{
+            width: 30%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #navbar_btn1{
+            display: flex;
+            align-items: center;
+            border: 2px solid rgb(29, 197, 7);
+            color: rgb(29, 197, 7);
+        }
+        #whatsapp_l{
+            height: 20px;
+            width: 20px;
+        }
+        #navbar_btn2{
+            border: 2px solid rgb(0, 195, 255);
+            color: rgb(0, 195, 255);
+        }
+        #navbar_btn1,#navbar_btn2{  
+            height:35px;
+            border-radius: 5px;
+            background-color: white;
+            padding: 0px 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            font-weight: bolder;
+        }
+        #navbar_part2 >p{
+            color: rgb(104, 103, 103);
+        }
