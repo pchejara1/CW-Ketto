@@ -1,0 +1,645 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    /* padding: 0;
+    margin: 0; */
+}
+
+/* #navbar{
+    border: 2px solid deeppink;
+     width: auto;
+     height: 100px;
+} */
+
+
+    #data{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        /* border: 2px dashed coral; */
+        height: max-content;
+        width: auto;
+        margin-left: 28%;
+
+    }
+    #parentBox{
+        /* border: 1px solid teal; */
+        margin: 20px;
+
+    }
+    #avtar{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    }
+
+    #data > div{
+       
+    
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    /* padding: 5px; */
+    margin-left: 5%;
+   }
+
+   #data > div:hover{
+    cursor:progress;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 260px;
+    border-radius: 10px;
+
+}
+
+   #parentBox > h4{
+   margin-left: 10px;
+    /* text-decoration: none; */
+    font-family: 'Source Sans Pro', sans-serif;
+   }
+
+   #logo{
+    display: flex;
+    align-items: center;
+
+  }
+
+
+  #imgLogo{
+    width: 40px;
+    border: 0px;
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+
+  #amount{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    
+}
+#amount p{
+    color: gray;
+    margin-left: 5px;
+    
+}
+
+
+#hr{
+    width: 90%;
+    height: 3px;
+    background-color: #01bfbd;
+    border-radius: 5px;
+}
+
+#pLast{
+    margin-left: 10px;
+    color: gray;
+}
+
+#day,#supporters {
+    display: flex;
+    align-items: center;
+    /* margin-right: 2px; */
+   
+}
+#day >h3{
+margin-right: 5px;
+}
+
+#supporters>h3{
+    margin-right: 5px;
+}
+
+
+
+/* Top background */
+
+#backgroundImage{
+    /* border: 2px solid darkorange; */
+    /* height: 400px; */
+    width: auto;
+    padding: 0%;
+}
+
+#backgroundImage > img{
+    width: 100%;
+    height: 380px;
+   /* margin-left: 10%; */
+   background-size: cover;
+   margin-right: 10px;
+   padding: 0%;
+}
+
+#backgroundImage{
+    position: relative;
+     padding: 0%;
+  }
+  #backgroundImage > h2{
+              position: absolute;
+              font-family: 'Source Sans Pro', sans-serif;
+              top:10%;
+              left: 10%;
+              color: white;
+              font-size: 35pt;
+  }
+
+  #backgroundImage > p{
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
+    top:30%;
+    left: 10%;
+    color: white;
+    font-size: 25px;
+  }
+   
+  #backgroundImage button{
+   
+    position: absolute;
+    top:57%;
+    left: 10%;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    color:#015c7e;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 20%;
+    border: none;
+  }
+
+  /* search */
+  #search {
+    margin-left: 29%;
+    border: 2px solid #015c7e;
+    height: 58px;
+    width: 65%;
+    margin-top: 1%;
+    margin-bottom: -7%;
+    border-radius: 10px;
+    
+  }
+  #query{
+    height: 58px;
+    width: 95%;
+    font-size: 18px;
+    font-weight: 100;
+    color: gray;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 40px;
+
+  }
+  /* #query:focus{
+    border: transparent;
+
+  } */
+
+
+
+  /* bcategory,fund,location */
+
+  
+#bcategories{
+    /* border: 2px solid coral; */
+    float: left;
+    height:610px;
+    width: 220px;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+    margin-top: 2%;
+    margin-left: 70px;
+    padding: 20px;
+   
+    
+   
+  }
+  #bcategories > p{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  #bcategories > button{
+    background-color: #01bfbd;
+    color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    margin-top: 15px;
+    
+  }
+
+  #bcategories hr{
+  
+    width: 100%;
+    color: black;
+ }
+ #respCat{
+    font-family: 'Source Sans Pro', sans-serif;
+    /* border: 2px dashed deepskyblue; */
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    /* justify-content: space-between; */
+   
+    padding-left: 30px;
+ }
+
+ #respCat > select{
+    padding: 5px;
+    border-radius: 20px;
+   margin: 10px;
+    color: #01bfbd;
+    font-size: 15px;
+    border-color:#01bfbd;
+   
+ }
+ #bcategories  a{
+    line-height: 40px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* margin-left: 5px; */
+    font-size: 17px;
+    color:#01bfbd ;    ;
+    font-weight: 600;
+}
+
+/* <!-- childrenPic --> */
+
+#childrenPic{
+    display: flex;
+    width: 38%;
+    height: 150px;
+    margin-left: 30%;
+    /* border: 2px solid orangered; */
+    background-color: #ebfaff;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 3%;
+    color: #015c7e;
+   }
+   #childrenPic button{
+    background-color: #015c7e;
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20pxpx;
+    /* width: 5%; */
+   }
+
+   #talkToUs{
+    display: flex;
+
+   }
+
+   #talk{
+    /* border: 2px solid deeppink; */
+    width: 330px;
+    height: 150px;
+    margin-left: 4%;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    display: block;
+    
+    
+   }
+    #talk button{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        color: #01bfbd;
+        padding: 10px;
+        border-radius: 20px;
+        width: 60%;
+        font-size: 16px;
+        border-color:#01bfbd;
+    }
+    #talk h2{
+        /* width: 98%; */
+        width: 90%;
+        text-align: center;
+       
+    }
+
+   #childrenPic img{
+        width: 35%;
+        height: 90%;
+        padding: 5px;
+   }
+
+   /* chit,chat */
+
+   #load{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#01bfbd;
+     margin-left: 60%;
+     margin-bottom: 3%;
+     margin-top: 5%;
+     width: 15%;
+     height: 22px;
+     background-color: #ffffff;
+     border-radius: 5px;
+     border: none;
+
+   }
+   
+   #media{
+    display: flex;
+    /* border: 2px solid greenyellow; */
+    height: 80px;
+    width: auto;
+  }
+
+  .btn{
+    display: flex;
+    padding-top: 5px;
+    /* width: 45%; */
+    margin-left: 8%;
+    /* padding: 10px; */
+    width: 28%;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+   
+
+  }
+ #media button {
+   
+    height: 40px;
+       /* width: 45%; */
+       border-radius: 20px;
+       width: 100%;
+       border: 0px;
+ }
+ .btn > button:first-child{
+    margin-right: 10px;
+    width: 55%;
+    background-color:#354f84;
+    color: #ffffff;
+    /* font-weight: 200; */
+    /* padding-bottom: 20px; */
+ }
+ .btn > button:last-child{
+    margin-right: 10px;
+    width: 55px;
+    background-color:#28d077;
+    color: #ffffff;
+    font-weight: 200;
+    /* padding: 10px; */
+ }
+
+ #media p{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 10%;
+ }
+ .fa-square-facebook{
+    padding: 5px;
+    
+    /* font-family: 5px; */
+ }
+ .fa-whatsapp {
+    padding: 5px;
+    /* font-family: 5px; */
+ }
+ #newDiv{
+    display: flex;
+   justify-content: space-around;
+ }
+
+ #footer{
+    border: 2px solid peru;
+    height: 400px;
+    width: auto;
+    margin-top: 2%;
+ }
+
+
+/* media query */
+
+@media only screen and (max-width: 720px){
+    #contact > h4{
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+  
+     html,body{
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+     }
+   
+     #bcategories{
+         display: none;
+     }
+
+     #respCat{
+         display: block;
+     }
+
+    #startFundraise >a{
+     margin-top: -20px;
+    }
+
+     #respCatInner{
+         margin-top: -155%;
+         margin-bottom: 40%;
+         display: grid;
+         grid-template-columns: 25% 25% 25% 25%;
+         row-gap: 8px;
+         column-gap :-4x ;
+         list-style: none;
+         padding-left: 2%;
+     }
+ 
+     #respCatInner  a{
+        font-size: 15px;
+        text-decoration: none;
+        color:#01bfbd;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        padding: 2%;
+        border-radius: 4px;
+     }
+
+
+    #backgroundImage{
+        height:600px ;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+
+    #fundraisers{
+        width: 100%;
+        margin-left: 15%;
+        margin-top: -36%;
+        display: grid;
+        row-gap: 5px;
+        grid-template-columns: 20% ;
+    }
+
+    #fundraisers > a{
+        margin: 0;
+        right: 0;
+        gap: 2px;
+        margin-left:24%;
+        height: 400px;
+        margin-top: 80px;
+    }
+
+    #contact > h3{
+        margin: 0px;
+    }
+
+ form{
+  display: flex;
+ flex-direction: row;
+  
+ }
+ .fa-magnifying-glass{
+    width: 5%;
+ }
+
+
+}
+
+
+/* footer ***************/
+
+ .footerbody{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .footer_box{
+            background-color: #244949;
+            padding-left: 8%;
+            padding-right: 8%;
+            height: 600px;
+        }
+        .ft_box{
+            padding-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+        }
+        .img_box{
+            width: 300px;
+        }
+        img{
+            width: 80px;
+        }
+        .b_logo{
+            margin: 3px;
+            width: 40px;
+        }
+        li{
+            color: white;
+            font-size: 15px;
+            padding: 10px;
+        }
+        .bottom_head{
+            margin-bottom: 20px;
+            font-weight: bolder;
+            font-size: 23px;
+        }
+        .b_query{
+            font-weight: bolder;
+            font-size: 18px;
+            color: white;
+            margin-bottom: -7px;
+        }
+        .million{
+            color: white;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        .followers{
+            font-size: 15px;
+            color: grey;
+            margin-top: -20px;
+            margin-bottom: 70px;
+        }
+        .visa{
+            width: 450px;
+            display: block;
+            margin-left: 600px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        .copyright{
+            color: aliceblue;
+            text-align: center;
+        } 
+
+
+        /* navbar  */
+
+        /* body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        } */
+        .navbar_main{
+            background-color: white;
+            border: 0;
+            padding-left: 5%;
+            padding-right: 5%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+
+        }
+        #navbar_logo{
+            width: 70px;
+            margin-top: -18px;
+        }
+        #navbar_part1{
+            width: 40%;
+            color: rgb(104, 103, 103);
+            margin-left: -100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #navbar_part2{
+            width: 30%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #navbar_btn1{
+            display: flex;
+            align-items: center;
+            border: 2px solid rgb(29, 197, 7);
+            color: rgb(29, 197, 7);
+        }
+        #whatsapp_l{
+            height: 20px;
+            width: 20px;
+        }
+        #navbar_btn2{
+            border: 2px solid rgb(0, 195, 255);
+            color: rgb(0, 195, 255);
+        }
+        #navbar_btn1,#navbar_btn2{  
+            height:35px;
+            border-radius: 5px;
+            background-color: white;
+            padding: 0px 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            font-weight: bolder;
+        }
+        #navbar_part2 >p{
+            color: rgb(104, 103, 103);
+        }
+
+        #paymentBtn{
+            text-decoration: none;
+            color: #039695;
+        }
