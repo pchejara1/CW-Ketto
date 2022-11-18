@@ -2,52 +2,7 @@
 
 Ketto.org : Ketto is an Indian online crowdfunding platform, where any individual/organisation across the country can raise funds for causes ranging from medical healthcare to disaster relief.
 
-<img src="./src/PreviewImageGallery/ketto.png" width="400"/>
 
-
-## Our team was given a task to Clone the ketto.org Website.
-
-
-## See Our Live Website
-
-https://ketto.herokuapp.com
-
-
-
-
-
-
-## Installing and Running
-
-Executing the commands mentioned below one by one in your command line will help in making this React app .
-**Cloning**
-
-```
-git clone https://github.com/Ramlala-Yadav-Git/Ketto-Clone
-npm install
-
-```
-
-
-**To run the react app execute below command**
-
-```
-cd ketto-clone
-npm run start
-
-```
-
-**For Mock data Used In This Project Please Run these Commands :- **
-
-
-```
-json-server data.json --port 3001
-json-server url.json --port 3003
-json-server db.json --port 3004
-
-```
-
-## NPM Packages used
 
 - ### react [![react](https://camo.githubusercontent.com/475b49b04214dfa67c1ec8a2837888ae63003feb7b71fd45be30ff360148ad87/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f72656163742e7376673f7374796c653d666c6174)](https://github.com/facebook/react)
 
